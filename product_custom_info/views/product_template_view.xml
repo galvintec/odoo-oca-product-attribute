@@ -26,7 +26,7 @@
                             <tree editable="bottom" create="false" delete="false">
                                 <field name="field_type" invisible="true"/>
                                 <field name="category_id" readonly="true"/>
-                                <field name="property_id" readonly="true"/>
+                                <field name="property_id" readonly="true" force_save="1"/>
                                 <field name="value" attrs="{'readonly': [('field_type','=','id')]}"/>
                                 <field name="value_id" attrs="{'readonly': [('field_type','!=','id')]}"/>
                             </tree>
